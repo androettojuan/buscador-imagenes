@@ -27,7 +27,7 @@ function App() {
           }}
         >
           <Form>
-            <Field name="search" />
+            <Field name="search" placeholder="Buscar imagenes..."/>
           </Form>
         </Formik>
       </header>
