@@ -35,7 +35,7 @@ function App() {
         <div className="center">
           {photos.map((photo) => (
             <article key={photo.id} onClick={() => open(photo.links.html)}>
-              <img src={photo.urls.regular} />
+              <img src={photo.urls.regular} alt="foto"/>
               <p>{[photo.description, photo.alt_description].join(" - ")}</p>
             </article>
           ))}
